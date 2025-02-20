@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ivan/jdbc/ConnectionManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ivan/jdbc/auth/HomePcPostgresCredentials.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ivan/jdbc/auth/IDatabaseCredentials.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ivan/jdbc/auth/UnivPcPostgresCredentials.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ivan/tasks/actions/OptionsList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ivan/tasks/actions/optiontypes/OperationOption.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ivan/tasks/actions/optiontypes/variations/sem1/SumOperationOption.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ivan/utils/InputUtils.java" charset="UTF-8" />
+  </component>
+</project>
