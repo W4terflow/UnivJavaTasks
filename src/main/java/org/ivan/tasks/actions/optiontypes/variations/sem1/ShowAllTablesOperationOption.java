@@ -7,7 +7,7 @@ import org.ivan.tasks.actions.optiontypes.OperationOption;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class ShowAllTablesOperationOption extends OperationOption {
+public class ShowAllTablesOperationOption implements OperationOption {
     @Override
     public String getOptionCode() {
         return "show_all_tables";

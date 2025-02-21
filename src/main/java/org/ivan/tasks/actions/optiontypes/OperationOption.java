@@ -6,10 +6,10 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public abstract class OperationOption {
-    public abstract String getOptionCode();
+public interface OperationOption {
+    String getOptionCode();
 
-    public abstract String getOptionDescription();
+    String getOptionDescription();
 
-    public abstract void activate(Scanner scanner, ConnectionManager connectionManager) throws SQLException, IOException;
+    void activate(Scanner scanner, ConnectionManager connectionManager) throws SQLException, IOException;
 }

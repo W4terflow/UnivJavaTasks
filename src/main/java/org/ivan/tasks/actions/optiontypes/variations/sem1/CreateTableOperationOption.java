@@ -8,7 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class CreateTableOperationOption extends OperationOption {
+public class CreateTableOperationOption implements OperationOption {
     @Override
     public String getOptionCode() {
         return "show_all_tables";

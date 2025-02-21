@@ -15,7 +15,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Scanner;
 
-public class TablesExcelSaveOperationOption extends OperationOption {
+public class TablesExcelSaveOperationOption implements OperationOption {
     private List<String> tableNames;
 
     @Override

@@ -5,7 +5,7 @@ import org.ivan.jdbc.ConnectionManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public abstract class SavableExpressionOperationOption extends OperationOption {
+public abstract class SavableExpressionOperationOption implements OperationOption {
     protected abstract String getExpressionText();
 
     protected abstract Object calculateResult();
